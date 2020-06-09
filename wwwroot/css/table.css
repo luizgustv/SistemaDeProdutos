@@ -1,0 +1,16 @@
+﻿td a, a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.table{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+

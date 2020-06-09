@@ -1,0 +1,39 @@
+﻿@model SistemaDeProdutos.Models.TipoProduto
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Cadastrar Produto</h1>
+
+<div class="col-md-6">
+    <form asp-action="Create" id="formulario">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="DescricaoTipo" class="control-label">Descrição</label>
+                <input asp-for="DescricaoTipo" class="form-control" />
+                <span asp-validation-for="DescricaoTipo" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="StringToBool" class="control-label">Comercializado</label>
+                <div class="checkbox col-md-10" id="check">
+                    <input asp-for="StringToBool" class="form-control" type="checkbox"/>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-10">
+                    <input type="reset" value="Limpar" class="btn btn-dark" />
+                    <input type="submit" value="Criar" class="btn btn-dark" />
+                </div>
+            </div>
+    </form>
+</div>
+
+<a asp-action="Index" class="btn btn-dark">Voltar</a>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

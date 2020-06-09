@@ -1,0 +1,58 @@
+﻿*{
+    box-sizing: border-box;
+}
+
+.allButFooter{
+    min-height: calc(100vh - 95px);
+}
+
+body {
+    margin: 0;
+}
+
+#check {
+    margin-left: -140px;
+}
+
+.col-md-6 {
+    margin: 30px 30px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 5px;
+}
+
+.form-group .btn {
+    margin-left: -10px;
+}
+
+h1, .btn {
+    margin: 10px 30px;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+nav{
+    overflow: hidden;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 600px){
+    .column.side, .column.middle{
+        width: 100%;
+    }
+}

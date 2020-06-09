@@ -1,0 +1,47 @@
+﻿@model IEnumerable<SistemaDeProdutos.Models.TipoProduto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Produtos</h1>
+
+
+<a asp-action="Create" class="btn btn-dark">Novo Produto</a>
+
+@if (@TempData["mensagem"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        <!--imprime a mensagem-->
+        @TempData["mensagem"];
+    </div>
+}
+
+<table class="table table-sm table-striped" id="tabela">
+    <thead class="thead-dark">
+        <tr>
+            <th scopae="col">ID</th>
+            <th scopae="col">Descrição</th>
+            <th scopae="col">Opções</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdTipo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DescricaoTipo)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.IdTipo">Consultar</a> |
+                    <a asp-action="Edit" asp-route-id="@item.IdTipo">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdTipo">Deletar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
