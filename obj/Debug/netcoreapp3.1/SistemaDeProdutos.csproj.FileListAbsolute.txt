@@ -255,7 +255,6 @@ D:\Projetos\Programacao\DotNet\SistemaDeProdutos\SistemaDeProdutos\obj\Debug\net
 D:\Projetos\Programacao\DotNet\SistemaDeProdutos\SistemaDeProdutos\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\Projetos\Programacao\DotNet\SistemaDeProdutos\SistemaDeProdutos\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 D:\Projetos\Programacao\DotNet\SistemaDeProdutos\SistemaDeProdutos\obj\Debug\netcoreapp3.1\Razor\Views\TipoProduto\Create.cshtml.g.cs
-D:\Projetos\Programacao\DotNet\SistemaDeProdutos\SistemaDeProdutos\obj\Debug\netcoreapp3.1\Razor\Views\TipoProduto\Delete.cshtml.g.cs
 D:\Projetos\Programacao\DotNet\SistemaDeProdutos\SistemaDeProdutos\obj\Debug\netcoreapp3.1\Razor\Views\TipoProduto\Details.cshtml.g.cs
 D:\Projetos\Programacao\DotNet\SistemaDeProdutos\SistemaDeProdutos\obj\Debug\netcoreapp3.1\Razor\Views\TipoProduto\Edit.cshtml.g.cs
 D:\Projetos\Programacao\DotNet\SistemaDeProdutos\SistemaDeProdutos\obj\Debug\netcoreapp3.1\Razor\Views\TipoProduto\Index.cshtml.g.cs
