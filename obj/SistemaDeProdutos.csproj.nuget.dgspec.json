@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gustavo\\Documents\\Programacao\\DotNet\\SistemaDeProdutos\\SistemaDeProdutos\\SistemaDeProdutos.csproj": {}
+    "D:\\Projetos\\Programacao\\DotNet\\SistemaDeProdutos\\SistemaDeProdutos\\SistemaDeProdutos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gustavo\\Documents\\Programacao\\DotNet\\SistemaDeProdutos\\SistemaDeProdutos\\SistemaDeProdutos.csproj": {
+    "D:\\Projetos\\Programacao\\DotNet\\SistemaDeProdutos\\SistemaDeProdutos\\SistemaDeProdutos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gustavo\\Documents\\Programacao\\DotNet\\SistemaDeProdutos\\SistemaDeProdutos\\SistemaDeProdutos.csproj",
+        "projectUniqueName": "D:\\Projetos\\Programacao\\DotNet\\SistemaDeProdutos\\SistemaDeProdutos\\SistemaDeProdutos.csproj",
         "projectName": "SistemaDeProdutos",
-        "projectPath": "C:\\Users\\Gustavo\\Documents\\Programacao\\DotNet\\SistemaDeProdutos\\SistemaDeProdutos\\SistemaDeProdutos.csproj",
-        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gustavo\\Documents\\Programacao\\DotNet\\SistemaDeProdutos\\SistemaDeProdutos\\obj\\",
+        "projectPath": "D:\\Projetos\\Programacao\\DotNet\\SistemaDeProdutos\\SistemaDeProdutos\\SistemaDeProdutos.csproj",
+        "packagesPath": "C:\\Users\\Luiz_\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\Programacao\\DotNet\\SistemaDeProdutos\\SistemaDeProdutos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Luiz_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
