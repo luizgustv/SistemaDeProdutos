@@ -3,4 +3,14 @@ Para aramazenar o banco de dados foi utlizado o PostgreSQL através do ElephantS
 Está Hospedado no Heroku através do <a href="https://sistema-produtos-net-core.herokuapp.com">Link<a/> 
 
 
-<h3>Preview</h3>
+<h2>Preview</h2>
+
+<h3>Home</h3>
+<img src="/preview/home.png">
+
+<h3>Formulário</h3>
+<img src="/preview/form.png">
+
+<h3>Lista</h3>
+<img src="/preview/produtos.png">
+
