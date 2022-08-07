@@ -13,4 +13,3 @@ Está Hospedado no Heroku através do <a href="https://sistema-produtos-net-core
 
 <h3>Lista</h3>
 <img src="/preview/produtos.png">
-
